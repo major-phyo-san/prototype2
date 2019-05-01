@@ -41,7 +41,7 @@ public class MessageService
 		{
 			return null;
 		}
-		message.put(message.getId(), message);
+		messages.put(message.getId(), message);
 		return message;
 	}
 	
